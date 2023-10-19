@@ -9,7 +9,7 @@ void read(int a[][3]){
 	printf("Enter the number of non zero elements : ");
 	scanf("%d",&rows);
 	printf("Enter the sparse representation : ");
-	for(i=0;i<rows;i++){
+	for(i=0;i<=rows;i++){
 		for(j=0;j<3;j++){
 			printf("Enter the element [%d][%d] : ",i,j);
 			scanf("%d",&a[i][j]);
