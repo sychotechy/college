@@ -30,7 +30,7 @@ void transpose(int matrix[][3], int matrixTranspose[][3]){
  
 	for(i=0;i<m;i++){
 		for(j=1;j<n+1;j++){
-			if(a[j][1]==i){
+			if(matrix[j][1]==i){
 				matrixTranspose[k][0]=matrix[j][1];
 	 			matrixTranspose[k][1]=matrix[j][0];
 	 			matrixTranspose[k][2]=matrix[j][2];
