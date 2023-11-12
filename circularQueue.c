@@ -1,3 +1,9 @@
+/*
+Circular queue
+Name :- Sreejith O
+Class :- CS3B
+Roll no :- 71
+*/
 #include<stdio.h>
 int queue[50],front=-1,rear=-1;
 void enQueue(int element, int maxSize){

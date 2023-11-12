@@ -1,3 +1,9 @@
+/*
+Postfix Evaluation
+Name :- Sreejith O
+Class :- CS3B
+Roll no :- 71
+*/
 #include <stdio.h>
 int stack[20], top = -1;
 char postfix[20];
