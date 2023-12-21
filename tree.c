@@ -46,7 +46,7 @@ int main(){
 	int flag=1,option,element;
 	node *root = NULL;
 	do{
-		printf("\n** Operations **\n1.Create node\n2.Insert Left Child\n3.Insert Right Child\n4.Inorder\n5.Preorder\n6.Postorder\n7.Exit\nEnter option : ");
+		printf("\n** Operations **\n1.Create Root\n2.Insert Left Child\n3.Insert Right Child\n4.Inorder\n5.Preorder\n6.Postorder\n7.Exit\nEnter option : ");
 		scanf("%d",&option);
 		switch(option){
 			case 1:
